@@ -10,10 +10,10 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 #loading the saved models
-diabetes_model = pickle.load(open('C:/Users/KIIT/OneDrive/Desktop/Minor Project/Diabetes_model.sav','rb'))
-Parkinsons_model = pickle.load(open('C:/Users/KIIT/OneDrive/Desktop/Minor Project/parkinsons_model.sav','rb'))
-Heart_disease_model = pickle.load(open('C:/Users/KIIT/OneDrive/Desktop/Minor Project/heart_model.sav','rb'))
-cancer_model =  pickle.load(open('C:/Users/KIIT/OneDrive/Desktop/Minor Project/cancer_model.sav','rb'))
+diabetes_model = pickle.load(open('Diabetes_model.sav','rb'))
+Parkinsons_model = pickle.load(open('parkinsons_model.sav','rb'))
+Heart_disease_model = pickle.load(open('heart_model.sav','rb'))
+cancer_model =  pickle.load(open('cancer_model.sav','rb'))
 
 
 #sidebar for Navigation
