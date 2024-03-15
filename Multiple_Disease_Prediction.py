@@ -335,16 +335,16 @@ if(selected == 'Insurance Cost Prediction'):
     with col1:
         age = st.text_input('Age of the person')
     with col2:
-        sex = st.text_input('Sex')
+        sex = st.text_input('Enter Sex, MALE=0 FEMALE=1')
     with col3:
         BMI = st.text_input('BMI')
     with col1:
         
         children = st.text_input('Number of Childeren')
     with col2:
-        Smoker = st.text_input('Smoker')
+        Smoker = st.text_input('Whether you are a smoker (ENTER 0 IF YES ELSE 1 FOR NO)')
     with col3:
-        region = st.text_input('region')
+        region = st.text_input('Which region you belong to(FOR SOUTHEAST=0,SOUTHWEST=1,NORTHEAST=2 NORTHWEST=3')
     
     
     # code for Prediction
